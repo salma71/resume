@@ -1,0 +1,13 @@
+name: "Salma Elshahawy"
+navbar:
+  title: "Salma Elshahawy"
+  right:
+    - text: "Home"
+      href: "https://www.github.com/salma71"
+    - text: "Projects"
+      href: "https://www.github.com/salma71"
+    - text: "CV"
+      href: "https://www.github.com/salma71"
+    - text: "Blog"
+      href: "https://www.medium.com/@salmaeng71"
+output_dir: "docs"

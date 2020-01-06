@@ -1,0 +1,16 @@
+```{block type='col-6 grid-item', echo=TRUE}
+## Contact information {.box}
+<div class="info-box">
+
+| Center | Left |
+|:------:|:-----|
+| <i class="fas fa-map-marker-alt"></i>|Graduate student,\
+Department of Analytics and Data Science,\
+The City University of New York,\
+New York, USA|
+| <i class="fas fa-envelope"></i> | salmaeng\@gmail.com |
+| <i class="fas fa-globe"></i> | [website](https://github.com/salma71/) |
+| <i class="fab fa-github"></i> | [salma71](https://github.com/salma71/) |
+
+</div>
+```

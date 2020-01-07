@@ -25,7 +25,7 @@ cv_entries <- readxl::read_xlsx("_cv_data/cv_entries.xlsx")
 
 # Summary
 
-_Implementing data-driven, action-oriented solutions to challenging business problems_
+**_Implementing data-driven, action-oriented solutions to challenging business problems_**
 
 I am a business-minded data scientist with demonstrated skills to infer worthy insights through data analytics and exceptional statistical predictive models. I am a proficient problem solver with more than two years of experience in software engineering within the financial and healthcare industries.
 

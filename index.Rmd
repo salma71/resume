@@ -25,24 +25,21 @@ cv_entries <- readxl::read_xlsx("_cv_data/cv_entries.xlsx")
 
 # Summary
 
-An entry-level data scientist with a passion for building models and translate data points into business insights. Offering exceptional programming, statistical analysis, and research abilities to extract, clean, and prepare data for data science model ingestion. 
+_Implementing data-driven, action-oriented solutions to challenging business problems_
 
-I’m thoughtful in my approach to data analysis and have refined my skills through pursuing a **master's degree in Data Science** \
-at **CUNY university**. 
+I am a business-minded data scientist with demonstrated skills to infer worthy insights through data analytics and exceptional statistical predictive models. I am a proficient problem solver with more than two years of experience in software engineering within the financial and healthcare industries.
 
-I am a strong problem solver, currently looking to contribute my range of skills to a team that needs a dedicated performer with a broad grasp of technologies.
+I am also a full-stack Software Engineer with a passion for cleanly written, organized, and well-tested code. I have an extraordinary passion for **Python** as a data _analysis language_.
 
-I am also a full stack software Engineer with a passion for cleanly written, organized, and well-tested code. Have a special passion about **Python** as a data _analysis language_. 
-
-I have experience using Javascript, Ruby, R, Java, and their frameworks. I've developed many applications in many languages especially in financial industry. My background in mechanical engineering helped me to enhance my abilities as a\
-**Software Engineer**.
-
+I have experience using Javascript, Ruby, R, Java, and their frameworks. I’ve developed many applications in many languages, especially in the financial industry. My background in mechanical engineering helped me to improve my capabilities as a Software Engineer within healthcare and financial industries.
 
 I like to learn by reading and to convey the learning skills via writing. I have a blogpost on [Medium](https://medium.com/@salmaeng71) - Kindly check it out. Many followers find it useful to them.
 
-You can download a brief version of [my CV as PDF](https://github.com/salma71/resume_website/blob/master/Salma-Resume_Nov.11.pdf).
+
+You can download a brief version of [my CV as PDF](https://github.com/salma71/resume_website/blob/master/Salma-Resume_Dec30.pdf).
 
 <br>
+
 
 ## Skills {.technical .nohead}
 ```{r}

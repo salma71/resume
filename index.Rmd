@@ -36,7 +36,7 @@ I have experience using Javascript, Ruby, R, Java, and their frameworks. I’ve 
 I like to learn by reading and to convey the learning skills via writing. I have a blogpost on [Medium](https://medium.com/@salmaeng71) - Kindly check it out. Many followers find it useful to them.
 
 
-You can download a brief version of [my CV as PDF](https://github.com/salma71/resume_website/blob/master/Salma-Resume_Dec30.pdf).
+You can download a brief version of [my Resume as PDF](https://github.com/salma71/resume_website/blob/master/Salma-Resume_June10.pdf).
 
 <br>
 

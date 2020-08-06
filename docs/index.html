@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
@@ -240,6 +239,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -268,6 +268,12 @@ $(document).ready(function () {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -350,10 +356,13 @@ div.tocify {
   <a href="https://www.github.com/salma71">GitHub</a>
 </li>
 <li>
-  <a href="https://github.com/salma71/resume_website/blob/master/Salma-Resume_Dec30.pdf">CV-pdf</a>
+  <a href="https://github.com/salma71/resume_website/blob/master/Salma-Resume_June10.pdf">Resume-pdf</a>
 </li>
 <li>
   <a href="https://www.medium.com/@salmaeng71">Medium-Blog</a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/salma-elshahawy/">LinkedIn</a>
 </li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -377,7 +386,7 @@ div.tocify {
 <p>I am also a full-stack Software Engineer with a passion for cleanly written, organized, and well-tested code. I have an extraordinary passion for <strong>Python</strong> as a data <em>analysis language</em>.</p>
 <p>I have experience using Javascript, Ruby, R, Java, and their frameworks. I’ve developed many applications in many languages, especially in the financial industry. My background in mechanical engineering helped me to improve my capabilities as a Software Engineer within healthcare and financial industries.</p>
 <p>I like to learn by reading and to convey the learning skills via writing. I have a blogpost on <a href="https://medium.com/@salmaeng71">Medium</a> - Kindly check it out. Many followers find it useful to them.</p>
-<p>You can download a brief version of <a href="https://github.com/salma71/resume_website/blob/master/Salma-Resume_Dec30.pdf">my CV as PDF</a>.</p>
+<p>You can download a brief version of <a href="https://github.com/salma71/resume_website/blob/master/Salma-Resume_June10.pdf">my Resume as PDF</a>.</p>
 <p><br></p>
 <div id="skills" class="section level2 technical nohead">
 <h2>Skills</h2>
@@ -481,6 +490,18 @@ div.tocify {
 </thead>
 <tbody>
 <tr class="odd">
+<td align="left"><span class="work-title"><a href="https://github.com/salma71/home_credit_risk">Home credit default risk</a></span><br class='work-break'><br></span><br class='work-break'></td>
+<td align="left">A Kaggle competition to predict how capable each applicant is of repaying a loan. The objective of this model is to use historical loan application data to predict whether or not an applicant will be able to repay a loan. Manual feature engineering has been used by utilizing advanced pandas data manipulation and aggregation functions.</td>
+<td align="left"><a href="https://github.com/salma71/home_credit_risk">GitHub-Repo</a></td>
+<td align="left">Python, ML,Bigdata, Feature engineering</td>
+</tr>
+<tr class="even">
+<td align="left"><span class="work-title"><a href="https://github.com/salma71/MSDS_SP2020/tree/master/Spring2020/computational_mod_605/Final_exam">Predicting house prices - Kaggle</a></span><br class='work-break'><br></span><br class='work-break'></td>
+<td align="left">Utilized different advanced types of regression to predict the final price of each home with more than 70 explanatory independent variables.</td>
+<td align="left"><a href="MSDS_SP2020/tree/master/Spring2020/computational_mod_605/Final_exam">GitHub-Repo</a></td>
+<td align="left">R, EDA, Advance regression Analysis</td>
+</tr>
+<tr class="odd">
 <td align="left"><span class="work-title"><a href="https://github.com/salma71/titanic_kaggle_compt">Titanic desaster analysis</a></span><br class='work-break'><br></span><br class='work-break'></td>
 <td align="left">a predictive model in R using Machine learning algorithms to predict the survivals from titanic - Model accuracy 0.789 -&gt; top 24% of submission</td>
 <td align="left"><a href="https://github.com/salma71/titanic_kaggle_compt">GitHub-Repo</a></td>
@@ -496,7 +517,7 @@ div.tocify {
 <td align="left"><span class="work-title"><a href="https://rpubs.com/salmaeng/spam_ham_classifier">spam-ham document classification filter</a></span><br class='work-break'><br></span><br class='work-break'></td>
 <td align="left">Applying multiple unsupervised machine learning algorithms to classify documents as spam or ham</td>
 <td align="left"><a href="https://github.com/salma71/MSDS_2019/tree/master/Fall2019/aquisition_management_607/week_10">GitHub-Repo</a></td>
-<td align="left">R, ML</td>
+<td align="left">R, NPL, Classification</td>
 </tr>
 <tr class="even">
 <td align="left"><span class="work-title"><a href="https://rpubs.com/salmaeng/UN_internation_migration_analysis">UN-migration stock analysis</a></span><br class='work-break'><br></span><br class='work-break'></td>
@@ -606,7 +627,7 @@ $(document).ready(function ()  {
       theme: "bootstrap3",
       context: '.toc-content',
       hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
       },
       ignoreSelector: ".toc-ignore",
       scrollTo: 0
